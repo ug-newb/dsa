@@ -6,6 +6,7 @@ class Main {
         lc_560 ob = new lc_560();
         int[] nums = {1,2,3};
         int k = 3;
+        ///Whastcsd
         System.out.println(ob.subarraySum(nums,k));
     }
 }
