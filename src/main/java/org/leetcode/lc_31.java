@@ -1,5 +1,11 @@
 package org.leetcode;
-
+/*------------------------MAIN CODE---------------------------------------
+* public static void main(String[] args) {
+        lc_31 ob = new lc_31();
+        int[] arr = {1, 1, 5};
+        ob.nextPermutation(arr);
+    }
+* */
 public class lc_31 {
     public void nextPermutation(int[] nums) {
         int k = -1, l = -1;

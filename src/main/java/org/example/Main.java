@@ -1,10 +1,11 @@
 package org.example;
 
-import org.leetcode.lc_31;
+import org.leetcode.lc_560;
 class Main {
     public static void main(String[] args) {
-        lc_31 ob = new lc_31();
-        int[] arr = {1, 1, 5};
-        ob.nextPermutation(arr);
+        lc_560 ob = new lc_560();
+        int[] nums = {1,2,3};
+        int k = 3;
+        System.out.println(ob.subarraySum(nums,k));
     }
 }
