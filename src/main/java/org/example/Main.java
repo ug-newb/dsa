@@ -1,11 +1,13 @@
 package org.example;
-
-import org.leetcode.lc_560;
+import org.leetcode.lc_1;
 class Main {
     public static void main(String[] args) {
-        lc_560 ob = new lc_560();
-        int[] nums = {1,2,3};
-        int k = 3;
-        System.out.println(ob.subarraySum(nums,k));
+        int[] nums = {2,7,11,15};
+        int target = 9;
+        lc_1 ob = new lc_1();
+        int[] res = ob.twoSum(nums, target);
+        for(int i=0; i< res.length; i++) {
+            System.out.print(res[i] +" ");
+        }
     }
 }
