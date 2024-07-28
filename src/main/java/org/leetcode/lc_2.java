@@ -1,5 +1,5 @@
 package org.leetcode;
-import org.leetcode.ListNode;
+import org.definition.ListNode;
 public class lc_2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);
